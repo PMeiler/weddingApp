@@ -2,7 +2,7 @@
 
 <% console.log(guest); %>
 <% var a = 1;%>
-
+<% var total = 0;%>
 
 <table class="table">
   <thead>
@@ -24,9 +24,18 @@
       <td><%= c.email %></td>
       <td><%= c.number %></td>
       <td><%= c.guests %></td>
+      <% total+=c.number %>
     </tr>
     
    <%   }); %>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">SUM</th>
+      <td> - </td>
+      <td> -</td>
+      <td> <%= total %></td>
+      <td>-</td>
   </tbody>
 </table>
 
