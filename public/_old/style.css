@@ -1,0 +1,32 @@
+body{
+	background: url("test.jpg") no-repeat center center fixed;
+    font-family: '1 Vivaldi  Bold', arial;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+h1{
+	color: red;
+}
+
+#cont{
+	position: center;
+	margin-top: 20%;
+	color: white;
+}
+
+.jumbotron{
+	background-color: rgba(0,0,0,0.4);
+}
+
+.display-4{
+	color:white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.lead{
+	font-size: 150%;
+	text-align: center;
+}

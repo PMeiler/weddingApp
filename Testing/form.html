@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Form Test</title>
+</head>
+<body>
+	<form style="width:34%; margin:0 auto;" action="/index/<%= camp._id%>/comments" method="POST">
+            <div class="form-group">
+                <input class="form-control" type="text" name="author" placeholder="author">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="title" placeholder="title">    
+            </div>
+            <div class="form-group" style="width:34%; margin:0 auto">
+                <button id="RSVP" class="btn btn-primary btn-lg">Submit</button>
+            </div>
+        </form>
+</body>
+</html>
